@@ -16,6 +16,16 @@
 	border: 8px solid $theme-bg-secondary;
 }
 
+.resume-pic {
+	max-width: 160px;
+	height: auto;
+	position: absolute;
+	left: 50%;
+	margin-left: -80px;
+	top: -80px;
+	border: 8px solid
+}
+
 
 .resume-name {
 	letter-spacing: 0.5rem;
