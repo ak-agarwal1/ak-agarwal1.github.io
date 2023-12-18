@@ -26,6 +26,12 @@
 
 </head> 
 
+<style>
+    .image-container {
+      padding: 10px; /* Adjust the padding as needed */
+    }
+</style>
+
 
 <body>
 	
@@ -66,41 +72,47 @@
 						<div class="resume-body p-4 p-lg-5">
 							<div class="row">
 								<div class="col-main col-12 col-lg-8 pe-lg-4">
+
+
 									<section class="resume-summary-section resume-section">
 										<h3 class="resume-section-heading text-uppercase py-2 py-lg-3 py-2 py-lg-3"><i class="resume-section-heading-icon bi bi-person me-2"></i>About Me</h3>
 										<div class="resume-summary-desc">
 											Currently pursuing my Masters of Science in Electrical Engineering at CalTech, expanding my skills and experience from my Bachelors of Science degree that I earned at UCSD. My interests include Integrated Circuit Design and Wireless Systems which I have utilized in working on projects pertaining to Wi-Fi Backscatter, Sensors Ciruits and Wireless Sensing Systems. Excited to continue building systems for all kinds of applications. 
 										</div>
 									</section><!--//resume-section-->
-									
 									<hr>
 									
+									
 									<section class="resume-experience-section resume-section">
-										<h3 class="resume-section-heading text-uppercase py-2 py-lg-3 py-3"><i class="resume-section-heading-icon bi bi-briefcase me-2"></i>Research and Experience</h3>
+										<h3 class="resume-section-heading text-uppercase py-2 py-lg-3 py-3"><i class="resume-section-heading-icon bi bi-briefcase me-2"></i>experience</h3>
 										<div class="resume-timeline position-relative">
-										    <article class="resume-timeline-item position-relative pb-5">
-											    
+										    
+										    <article class="resume-timeline-item position-relative">
+
 											    <div class="resume-timeline-item-header mb-2">
 												    
 												    <div class="resume-position-meta d-flex justify-content-between mb-1">
-													    <div class="resume-position-time">Feb 2023 - Present</div>
+													    <div class="resume-position-time">Feb 2023 - Jul 2023</div>
 													    <div class="resume-company-name">UCSD Qualcomm Institute</div>
 												    </div>
 											        <h3 class="resume-position-title mb-1">Research and Development Engineer</h3>
 
 											    </div><!--//resume-timeline-item-header-->
 											    <div class="resume-timeline-item-desc">
-												 
-												   
 												    <ul class="resume-timeline-list">
 													    <li>Developed a novel system for Angle of Arrival (AoA) estimation for RF signals in the sub 6 GHz spectrum.</li>
-													    <li>Utilized Ansys HFSS and MATLAB simulations for designing antenna arrays for wideband performance.</li>
+													    <li>Utilized Ansys HFSS and MATLAB simulations for designing antenna arrays for wideband performancer.</li> 
 												    </ul>
-												    
 											    </div><!--//resume-timeline-item-desc-->
-		
 										    </article><!--//resume-timeline-item-->
-								    
+							            </div><!--//resume-timeline-->
+									</section><!--//resume-experience-section-->
+
+
+									<section class="resume-experience-section resume-section">
+										<h3 class="resume-section-heading text-uppercase py-2 py-lg-3 py-3"><i class="resume-section-heading-icon bi bi-briefcase me-2"></i>Research Projects</h3>
+										<div class="resume-timeline position-relative">
+										    
 										    <article class="resume-timeline-item position-relative pb-5">
 
 											    <div class="resume-timeline-item-header mb-2">
@@ -109,118 +121,126 @@
 													    <div class="resume-position-time">Feb 2021 - Dec 2022</div>
 													    <div class="resume-company-name">UCSD Energy-Efficient Microsystems Lab </div>
 												    </div>
-											        <h3 class="resume-position-title mb-1">Undergraduate Researcher - Wi-Fi Backscatter</h3>
+											        <h3 class="resume-position-title mb-1"> Wi-Fi Backscatter</h3>
 
 											    </div><!--//resume-timeline-item-header-->
 											    <div class="resume-timeline-item-desc">
 												    <ul class="resume-timeline-list">
-
-													    <img class="resume-pic" src="assets/images/wifibackscatter.png">
-													    <li>Designed, implemented, and validated performance of a new architecture to improve range and wake-up times of Wi-Fi backscatter systems through a discretely implemented backscatter tag.</li>
+														<div class="image-container">
+															<img src="assets/images/wifibackscatter.png" alt="image"  style="width: 450px;height:250px;" class="center" >
+														</div>
+														<li>Designed, implemented, and validated performance of a new architecture to improve range and wake-up times of Wi-Fi backscatter systems through a discretely implemented backscatter tag.</li>
 													    <li>Optimized power and area for layout design of hardware blocks on a custom Printed Circuit Board (PCB).</li>
 													    <li>Utilized Verilog coding to implement multiple functional blocks like custom clocking and UART on FPGAs.</li>
 														<li>Automated data collection process for validation and debugging, leading to a faster validation process.</li>
 												    </ul>
 												    
 											    </div><!--//resume-timeline-item-desc-->
-		
-										    </article><!--//resume-timeline-item-->
+											</article><!--//resume-timeline-item-->
+
 										    <article class="resume-timeline-item position-relative">
 
 											    <div class="resume-timeline-item-header mb-2">
 												    
 												    <div class="resume-position-meta d-flex justify-content-between mb-1">
-													    <div class="resume-position-time">2017 - 2019</div>
-													    <div class="resume-company-name">Coinbase</div>
+													    <div class="resume-position-time">Sep 2021 - Dec 2022</div>
+													    <div class="resume-company-name">UCSD Energy-Efficient Microsystems Lab</div>
 												    </div>
-											        <h3 class="resume-position-title mb-1">App Developer</h3>
+											        <h3 class="resume-position-title mb-1">Bio-Fuel Cell (BFC) Touchsensor</h3>
 
 											    </div><!--//resume-timeline-item-header-->
 											    <div class="resume-timeline-item-desc">
 												    <ul class="resume-timeline-list">
-													    
-													    <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
-													    <li>Nulla velit dui, ultrices sit amet arcu eget, sodales lacinia lorem.</li>
-													    <li>Quisque semper nisi mauris, non ullamcorper nunc consectetur eget. </li>
-													   
+													    <li>Tested the use of BFCs as a power source for health and Bluetooth applications using a custom PCB.</li>
+													    <li>Harvested power from BFC to transmit sensor data through Bluetooth advertisement to minimize power.</li> 
 												    </ul>
-												    
 											    </div><!--//resume-timeline-item-desc-->
-		
 										    </article><!--//resume-timeline-item-->
 							            </div><!--//resume-timeline-->
 									</section><!--//resume-experience-section-->
+
+
+
+
+
+									<section class="resume-experience-section resume-section">
+										<h3 class="resume-section-heading text-uppercase py-2 py-lg-3 py-3"><i class="resume-section-heading-icon bi bi-briefcase me-2"></i>Projects</h3>
+										<div class="resume-timeline position-relative">
+										    
+										    <article class="resume-timeline-item position-relative pb-5">
+											    <div class="resume-timeline-item-header mb-2">
+											        <h3 class="resume-position-title mb-1"> Operational Transconductance Amplifier (OTA) Design</h3>
+											    </div><!--//resume-timeline-item-header-->
+											    <div class="resume-timeline-item-desc">
+													Designed a self-biased Operational Transconductance Amplifier (OTA) with given specifications of gain, unity gain bandwidth, gain margin and phase margin using Cadence Virtuoso   
+											    </div><!--//resume-timeline-item-desc-->
+											</article><!--//resume-timeline-item-->
+
+										    <article class="resume-timeline-item position-relative pb-5">
+											    <div class="resume-timeline-item-header mb-2">
+											        <h3 class="resume-position-title mb-1"> Custom Carry-Increment 8-bit Adder</h3>
+											    </div><!--//resume-timeline-item-header-->
+											    <div class="resume-timeline-item-desc">
+													Designed a custom architecture 8-bit adder based on a variable-length carry increment adder with 4GHz maximum operational frequency using Cadence Virtuoso  
+											    </div><!--//resume-timeline-item-desc-->
+											</article><!--//resume-timeline-item-->
+
+											<article class="resume-timeline-item position-relative pb-5">
+											    <div class="resume-timeline-item-header mb-2">
+											        <h3 class="resume-position-title mb-1"> Chromotherapy Lighting System</h3>
+											    </div><!--//resume-timeline-item-header-->
+											    <div class="resume-timeline-item-desc">
+													Led a team of engineering students for an IEEE project to develop an IoT device that used chromotherapy and audio commands given by a user to change lighting conditions in a room to elevate user mood  
+											    </div><!--//resume-timeline-item-desc-->
+											</article><!--//resume-timeline-item-->
+
+											<article class="resume-timeline-item position-relative pb-5">
+											    <div class="resume-timeline-item-header mb-2">
+											        <h3 class="resume-position-title mb-1"> Baboons on the Move</h3>
+											    </div><!--//resume-timeline-item-header-->
+											    <div class="resume-timeline-item-desc">
+													Used Python algorithms to improve efficiency for detecting and mapping baboon movement in a video clip   
+											    </div><!--//resume-timeline-item-desc-->
+											</article><!--//resume-timeline-item-->
+											
+							            </div><!--//resume-timeline-->
+									</section><!--//resume-experience-section-->
+
+
+									
+
+
 								</div><!--//col-8-->
 								<div class="col-12 col-lg-4 ps-lg-4">
+								
 									
 									<section class="resume-skills-section resume-section">
-										<h3 class="resume-section-heading text-uppercase py-2 py-lg-3 py-3"><i class="resume-section-heading-icon bi bi-gear me-2"></i>Tech Stack</h3>
-										
-										<ul class="list-unstyled">
-								        <li class="mb-2">
-								            <div class="resume-skill-name">JavaScript</div>
-											<div class="progress resume-progress" role="progressbar" aria-label="Basic example" aria-valuenow="98" aria-valuemin="0" aria-valuemax="100">
-											  <div class="progress-bar resume-progress-bar" style="width: 98%"></div>
-											</div>
-								        </li>
-								        <li class="mb-2">
-								            <div class="resume-skill-name">ReactJS</div>
-								            <div class="progress resume-progress" role="progressbar" aria-label="Basic example" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100">
-											  <div class="progress-bar resume-progress-bar" style="width: 95%"></div>
-											</div>
-									        
-								        </li>
-								        <li class="mb-2">
-								            <div class="resume-skill-name">Python</div>
-									        <div class="progress resume-progress" role="progressbar" aria-label="Basic example" aria-valuenow="92" aria-valuemin="0" aria-valuemax="100">
-											  <div class="progress-bar resume-progress-bar" style="width: 92%"></div>
-											</div>
-								        </li>
-								        <li class="mb-2">
-								            <div class="resume-skill-name">MongoDB</div>
-									        <div class="progress resume-progress" role="progressbar" aria-label="Basic example" aria-valuenow="86" aria-valuemin="0" aria-valuemax="100">
-											  <div class="progress-bar resume-progress-bar" style="width: 86%"></div>
-											</div>
-								        </li>
-
-							        </ul>
-										
-									</section><!--//resume-section-->
-									
-									<hr>
-									
-									<section class="resume-skills-section resume-section">
-										<h3 class="resume-section-heading text-uppercase py-2 py-lg-3 py-3"><i class="resume-section-heading-icon bi bi-person-gear me-2"></i>Soft Skills</h3>
+										<h3 class="resume-section-heading text-uppercase py-2 py-lg-3 py-3"><i class="resume-section-heading-icon bi bi-person-gear me-2"></i>Programming</h3>
 										<ul class="list-inline">
-								            <li class="list-inline-item"><span class="badge resume-skill-badge">Leadership</span></li>
-								            <li class="list-inline-item"><span class="badge resume-skill-badge">Project Management</span></li>
-								            
-								            <li class="list-inline-item"><span class="badge resume-skill-badge">DevOps</span></li>
-								            <li class="list-inline-item"><span class="badge resume-skill-badge">Public Speaking</span></li>
-								            
-								            				           
+								            <li class="list-inline-item"><span class="badge resume-skill-badge">C</span></li>
+								            <li class="list-inline-item"><span class="badge resume-skill-badge">C++</span></li>
+								            <li class="list-inline-item"><span class="badge resume-skill-badge">Python</span></li>
+								            <li class="list-inline-item"><span class="badge resume-skill-badge">Verilog</span></li>
+								            <li class="list-inline-item"><span class="badge resume-skill-badge">System Verilog</span></li>
+								            <li class="list-inline-item"><span class="badge resume-skill-badge">MATLAB</span></li>				           
+							            </ul>
+									</section><!--//resume-section-->
+
+									<hr>
+
+									<section class="resume-skills-section resume-section">
+										<h3 class="resume-section-heading text-uppercase py-2 py-lg-3 py-3"><i class="resume-section-heading-icon bi bi-person-gear me-2"></i>Design and Simulation</h3>
+										<ul class="list-inline">
+								            <li class="list-inline-item"><span class="badge resume-skill-badge">Eagle CAD</span></li>
+								            <li class="list-inline-item"><span class="badge resume-skill-badge">Altium Designer</span></li>
+								            <li class="list-inline-item"><span class="badge resume-skill-badge">LTSpice</span></li>
+								            <li class="list-inline-item"><span class="badge resume-skill-badge">Cadence Virtuoso</span></li>
+								            <li class="list-inline-item"><span class="badge resume-skill-badge">Keysight ADS</span></li>
+								            <li class="list-inline-item"><span class="badge resume-skill-badge">Ansys HFSS</span></li>				           
 							            </ul>
 									</section><!--//resume-section-->
 									
-									<hr>
 									
-									<section class="resume-projects-section resume-section">
-										<h3 class="resume-section-heading text-uppercase py-2 py-lg-3 py-3"><i class="resume-section-heading-icon bi bi-code-slash me-2"></i>Projects</h3>
-										<div class="item">
-											<h4 class="item-heading"><i class="item-icon bi bi-square-fill me-2"></i><a href="#">Project lorem Ipsum</a></h4>
-											<div class="item-desc">
-												Project desc goes here aenean ut libero sit amet ante fermentum scelerisque non a leo.
-											</div>
-										</div><!--//item-->
-										<div class="item">
-											<h4 class="item-heading"><i class="item-icon bi bi-square-fill me-2"></i><a href="#">Volutpat App</a></h4>
-											<div class="item-desc">
-												You can link to your project Github page.
-											</div>
-										</div><!--//item-->
-									
-											
-									</section>
 									
 									<hr>
 									
@@ -228,55 +248,21 @@
 										<h3 class="resume-section-heading text-uppercase py-2 py-lg-3 py-3"><i class="resume-section-heading-icon bi bi-book me-2"></i>Education</h3>
 										<ul class="list-unstyled">
 										    <li class="mb-2">
-										        <div class="resume-degree font-weight-bold">MSc in Computer Science</div>
-										        <div class="resume-degree-org">Oxford University</div>
-										        <div class="resume-degree-time">2016 - 2017</div>
+										        <div class="resume-degree font-weight-bold">Masters of Science in Electrical Engineering</div>
+										        <div class="resume-degree-org">California Institute of Technology</div>
+										        <div class="resume-degree-time">Sep 2023 - Dec 2024</div>
 										    </li>
 										    <li>
-										        <div class="resume-degree font-weight-bold">BSc Maths and Physics</div>
-										        <div class="resume-degree-org">University of California, Berkeley</div>
-										        <div class="resume-degree-time">2012 - 2016</div>
+										        <div class="resume-degree font-weight-bold">Bachelors of Science in Electrical Engineering</div>
+										        <div class="resume-degree-org">University of California, San Diego</div>
+										        <div class="resume-degree-time">Sep 2019 - Dec 2022</div>
 										    </li>
 									    </ul>
 									</section><!--//resume-section-->
 									
-									<hr>
 									
-									<section class="resume-lang-section resume-section">
-										<h3 class="resume-section-heading text-uppercase py-2 py-lg-3 py-3"><i class="resume-section-heading-icon bi bi-translate me-2"></i>Languages</h3>
-										 <ul class="list-unstyled resume-lang-list">
-										    <li class="mb-2">
-										        <div class="resume-lang-name">English</div>
-										        <div class="resume-level-indicator row gx-0 flex-nowrap">
-											        <div class="col"><span class="item item-full"></span></div>
-											        <div class="col"><span class="item item-full"></span></div>
-											        <div class="col"><span class="item item-full"></span></div>
-											        <div class="col"><span class="item item-full"></span></div>
-											        <div class="col"><span class="item item-full"></span></div>
-											        <div class="col"><span class="item item-full"></span></div>
-											        <div class="col"><span class="item item-full"></span></div>
-											        <div class="col"><span class="item item-full"></span></div>
-											        <div class="col"><span class="item item-full"></span></div>
-											        <div class="col"><span class="item item-half"></span></div>
-										        </div><!--//resume-level-indicator-->
-										    </li>
-										     <li class="mb-2">
-										        <div class="resume-lang-name">Spanish</div>
-										        <div class="resume-level-indicator row gx-0 flex-nowrap">
-											        <div class="col"><span class="item item-full"></span></div>
-											        <div class="col"><span class="item item-full"></span></div>
-											        <div class="col"><span class="item item-full"></span></div>
-											        <div class="col"><span class="item item-full"></span></div>
-											        <div class="col"><span class="item item-full"></span></div>
-											        <div class="col"><span class="item item-full"></span></div>
-											        <div class="col"><span class="item item-full"></span></div>
-											        <div class="col"><span class="item item-full"></span></div>
-											        <div class="col"><span class="item item-half"></span></div>
-											        <div class="col"><span class="item"></span></div>
-										        </div><!--//resume-level-indicator-->
-										    </li>
-										</ul>
-									</section>
+									
+
 									
 									
 									
