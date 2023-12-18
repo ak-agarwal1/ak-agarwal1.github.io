@@ -99,8 +99,12 @@
 	background: rgba(0, 0, 0, 0.1);
 	padding: 0.2rem 0.5rem;
 	@include border-radius(0.25rem);
-	font-weight: 1200;
 	font-size: 1.125rem;
+	letter-spacing: 0.15rem;
+	color: white;
+	font-weight: 900;
+	display: flex;
+	align-items: center;
 	
 }
 
