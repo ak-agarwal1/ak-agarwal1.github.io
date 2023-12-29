@@ -62,8 +62,9 @@
 								<div class="resume-contact mt-4">
 									<ul class="resume-contact-list list-unstyled list-inline mb-0 justify-content-between">
 										<li class="list-inline-item me-md-3 me-lg-5"><i class="resume-contact-icon bi bi-telephone-inbound me-2"></i> +1 (858)900-7167 </li>
-										<li class="list-inline-item me-md-3 me-lg-5"><i class="resume-contact-icon bi bi-envelope me-2"></i> aagarwa6@caltech.edu </li>
+										<li class="list-inline-item me-md-3 me-lg-5"><i class="resume-contact-icon bi bi-envelope me-2"></i> aagarwa6@caltech.edu / akshit2001agarwal@gmail.com</li>
 										<li class="list-inline-item me-lg-5"><a href="assets/Akshit_Agarwal.pdf" target="_blank"> Resume </a></li>
+										
 									</ul>
 								</div><!--//resume-contact-->
 							</div><!--//profile-holder-->
@@ -100,8 +101,9 @@
 											    </div><!--//resume-timeline-item-header-->
 											    <div class="resume-timeline-item-desc">
 												    <ul class="resume-timeline-list">
-													    <li>Developed a novel system for Angle of Arrival (AoA) estimation for RF signals in the sub 6 GHz spectrum.</li>
-													    <li>Utilized Ansys HFSS and MATLAB simulations for designing antenna arrays for wideband performancer.</li> 
+													    <li>Developed a novel system for signal agnostic Angle of Arrival (AoA) estimation for RF signals in the sub 6 GHz spectrum.</li>
+													    <li>Performed Ansys HFSS and MATLAB simulations for designing antenna arrays for wideband performancence.</li> 
+														<li>Integrated and sychronized hardware like SDRs and control boards with host software for signal detection and AoA estimation.</li>
 												    </ul>
 											    </div><!--//resume-timeline-item-desc-->
 										    </article><!--//resume-timeline-item-->
@@ -132,14 +134,13 @@
 															<img src="assets/images/wifibackscatter.png" alt="image"  style="width: 450px;height:250px;" class="center" >
 														</div>
 														<h6>Skills</h6>
-														<li>Optimized power and area for layout design of hardware blocks on a custom Printed Circuit Board (PCB).</li>
-													    <li>Utilized Verilog coding to implement multiple functional blocks like custom clocking and UART on FPGAs.</li>
-														<li>Automated data collection process for validation and debugging, leading to a faster validation process.</li>
+														<li>Optimized power and area for layout design of hardware blocks like antenna arrays and sensing circuitary on a custom PCB.</li>
+													    <li>Utilized Verilog coding to implement multiple functional blocks like clocking, UART and controls on CMOD FPGAs.</li>
+														<li>Automated data collection process using python scripts for validation and debugging, leading to a faster validation process.</li>
 														<br>
 														<h6>Publications</h6>
-														<li> M. Dunna, S.-K. Kuo, A. Agarwal, P.P. Mercier, D. Bharadia, <b><a href="assets/beamscatter.pdf" target="_blank">"BeamScatter: Scalable, Deployable Long-Range Backscatter Communication with Beam-Steering"</a></b> Cornell University arXiv </li>
 														<li> S.-K. Kuo, M. Dunna, H. Lu, A. Agarwal, D. Bharadia, P.P. Mercier, <b><a href="assets/lteharvesting.pdf" target="_blank">"An LTE-harvesting BLE-to-WiFi Backscattering Chip for Single-Device RFID-like Interrogation"</a></b> IEEE International Solid-State Circuits Conference 2023 </li>
-													
+														<li> M. Dunna, S.-K. Kuo, A. Agarwal, P.P. Mercier, D. Bharadia, <b><a href="assets/beamscatter.pdf" target="_blank">"BeamScatter: Scalable, Deployable Long-Range Backscatter Communication with Beam-Steering"</a></b> Cornell University arXiv </li>
 													</ul>
 												    
 											    </div><!--//resume-timeline-item-desc-->
@@ -158,8 +159,14 @@
 											    </div><!--//resume-timeline-item-header-->
 											    <div class="resume-timeline-item-desc">
 												    <ul class="resume-timeline-list">
-													    Tested the use of BFCs as a power source for health and Bluetooth applications using a custom PCB.
-													    <li>Harvested power from BFC to transmit sensor data through Bluetooth advertisement to minimize power.</li> 
+													    <i>Wearable Electronics have tracted massive interest due to their applications in fields of biomedical and computational sciences. This project investigated the use of Bio-Fuel Cells (BFCs) as power sources for wearable electronics systems for health monitoring and sensing applications. </i>
+													    <div class="image-container">
+															<img src="assets/images/touchsensor.png" alt="image"  style="width: 450px;height:205px;" class="center" >
+														</div>
+														<h6>Skills</h6>
+														<li>Designed a minimally sized PCB integrating a COTS Boost Convertor and Bluetooth Module along with required interfacing components.</li>
+														<li>Minimized power requirement from BFC by transmitting sensor data through bluetooth advertisement packets instead of using standard bluetooth connection. </li> 
+														<li>Utilized TI BLE5 software stack for bluetooth module advertising. </li>
 												    </ul>
 											    </div><!--//resume-timeline-item-desc-->
 										    </article><!--//resume-timeline-item-->
@@ -179,8 +186,11 @@
 											        <h3 class="resume-position-title mb-1"> Operational Transconductance Amplifier (OTA) Design</h3>
 											    </div><!--//resume-timeline-item-header-->
 											    <div class="resume-timeline-item-desc">
-													Designed a self-biased Operational Transconductance Amplifier (OTA) with given specifications of gain, unity gain bandwidth, gain margin and phase margin using Cadence Virtuoso   
-											    </div><!--//resume-timeline-item-desc-->
+													<ul>
+														<li>Designed a two stage (folded cascode with common source), differential-to-single-ended amplifier with bulit-in biasing circuitary using TSMC 180nm technology.</li>
+														<li>Simulated the design in Cadence Virtuoso and achieved gain of 73dB, unity gain bandwidth of 31 Mhz and power consumption of 2.19mW.</li>
+													</ul>	
+												</div><!--//resume-timeline-item-desc-->
 											</article><!--//resume-timeline-item-->
 
 										    <article class="resume-timeline-item position-relative pb-5">
@@ -188,7 +198,10 @@
 											        <h3 class="resume-position-title mb-1"> Custom Carry-Increment 8-bit Adder</h3>
 											    </div><!--//resume-timeline-item-header-->
 											    <div class="resume-timeline-item-desc">
-													Designed a custom architecture 8-bit adder based on a variable-length carry increment adder with 4GHz maximum operational frequency using Cadence Virtuoso  
+													<ul>
+														<li>Designed a custom architecture 8-bit, variable-length carry increment adder using GPDK045 45nm technology.</li>
+														<li>Simulated the design in Cadence Virtuoso and achieved a maximum operational frequency of 4 GHz and power consumption of 600uW. </li>
+													</ul>  
 											    </div><!--//resume-timeline-item-desc-->
 											</article><!--//resume-timeline-item-->
 
@@ -197,7 +210,10 @@
 											        <h3 class="resume-position-title mb-1"> Chromotherapy Lighting System</h3>
 											    </div><!--//resume-timeline-item-header-->
 											    <div class="resume-timeline-item-desc">
-													Led a team of engineering students for an IEEE project to develop an IoT device that used chromotherapy and audio commands given by a user to change lighting conditions in a room to elevate user mood  
+													<ul>
+														<li>Led a team of engineering students for an IEEE project to develop an Google Home based IoT device. </li>
+														<li>Programmed ESP32 modules to use chromotherapy principles and audio commands given by a user to dynamically adjust lighting conditions in a room to elevate user mood.</li>
+													</ul>
 											    </div><!--//resume-timeline-item-desc-->
 											</article><!--//resume-timeline-item-->
 
@@ -206,7 +222,10 @@
 											        <h3 class="resume-position-title mb-1"> Baboons on the Move</h3>
 											    </div><!--//resume-timeline-item-header-->
 											    <div class="resume-timeline-item-desc">
-													Used Python algorithms to improve efficiency for detecting and mapping baboon movement in a video clip   
+													<ul>
+														<li>Improved efficiency and accuracy for detection on moving objects in a video to effciently detect baboon movements in video clips for understanding movement patterns.</li>
+														<li>Used python image processing concepts and packages like opencv to implement detection of objects.</li>
+													</ul>
 											    </div><!--//resume-timeline-item-desc-->
 											</article><!--//resume-timeline-item-->
 											
@@ -226,10 +245,12 @@
 										<ul class="list-inline">
 								            <li class="list-inline-item"><span class="badge resume-skill-badge">C</span></li>
 								            <li class="list-inline-item"><span class="badge resume-skill-badge">C++</span></li>
+											<li class="list-inline-item"><span class="badge resume-skill-badge">Arduino C</span></li>
 								            <li class="list-inline-item"><span class="badge resume-skill-badge">Python</span></li>
 								            <li class="list-inline-item"><span class="badge resume-skill-badge">Verilog</span></li>
 								            <li class="list-inline-item"><span class="badge resume-skill-badge">System Verilog</span></li>
-								            <li class="list-inline-item"><span class="badge resume-skill-badge">MATLAB</span></li>				           
+								            <li class="list-inline-item"><span class="badge resume-skill-badge">MATLAB</span></li>		
+											<li class="list-inline-item"><span class="badge resume-skill-badge">ROS</span></li>		           
 							            </ul>
 									</section><!--//resume-section-->
 
@@ -242,8 +263,10 @@
 								            <li class="list-inline-item"><span class="badge resume-skill-badge">Altium Designer</span></li>
 								            <li class="list-inline-item"><span class="badge resume-skill-badge">LTSpice</span></li>
 								            <li class="list-inline-item"><span class="badge resume-skill-badge">Cadence Virtuoso</span></li>
-								            <li class="list-inline-item"><span class="badge resume-skill-badge">Keysight ADS</span></li>
-								            <li class="list-inline-item"><span class="badge resume-skill-badge">Ansys HFSS</span></li>				           
+								            <li class="list-inline-item"><span class="badge resume-skill-badge">Cadence Spectre</span></li>
+											<li class="list-inline-item"><span class="badge resume-skill-badge">Keysight ADS</span></li>
+								            <li class="list-inline-item"><span class="badge resume-skill-badge">Ansys HFSS</span></li>
+											<li class="list-inline-item"><span class="badge resume-skill-badge">SolidWorks</span></li>				           
 							            </ul>
 									</section><!--//resume-section-->
 									
@@ -265,6 +288,29 @@
 										        <div class="resume-degree-time">Sep 2019 - Dec 2022</div>
 										    </li>
 									    </ul>
+									</section><!--//resume-section-->
+
+									<hr>
+
+									<section class="resume-skills-section resume-section">
+										<h3 class="resume-section-heading text-uppercase py-2 py-lg-3 py-3"><i class="resume-section-heading-icon bi bi-person-gear me-2"></i>Coursework</h3>
+										<ul class="list-inline">
+								            <li class="list-inline-item"><span class="badge resume-skill-badge">Analog IC Design</span></li>
+								            <li class="list-inline-item"><span class="badge resume-skill-badge">Digital IC Design</span></li>
+								            <li class="list-inline-item"><span class="badge resume-skill-badge">RF Circuits</span></li>
+								            <li class="list-inline-item"><span class="badge resume-skill-badge">Electromagnetism</span></li>
+											<li class="list-inline-item"><span class="badge resume-skill-badge">Feedback Systems Design and Analysis</span></li>
+								            <li class="list-inline-item"><span class="badge resume-skill-badge">LTI Systems</span></li>
+											<li class="list-inline-item"><span class="badge resume-skill-badge">Control Theory</span></li>
+								            <li class="list-inline-item"><span class="badge resume-skill-badge">C and C++</span></li>
+											<li class="list-inline-item"><span class="badge resume-skill-badge">Nanotechnology</span></li>				           
+											<li class="list-inline-item"><span class="badge resume-skill-badge">Advanced Photonics and Lasers Lab</span></li>
+											<li class="list-inline-item"><span class="badge resume-skill-badge">Robotics</span></li>
+											<li class="list-inline-item"><span class="badge resume-skill-badge">Signals and Transforms</span></li>				           
+							            				           
+							            				           
+							            
+										</ul>
 									</section><!--//resume-section-->
 									
 									
